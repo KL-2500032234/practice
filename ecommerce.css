@@ -1,0 +1,143 @@
+header {
+    background-color: rgb(1, 1, 82);
+    padding: 10px 20px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+header h1 {
+    display: inline;
+    color: white;
+}
+
+.account button {
+    margin-left: 5px;
+    margin-top: 15px;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    min-height: calc(100vh - 120px);
+}
+
+aside {
+    width: 200px;
+    background-color: #d9edf5;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    flex: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+aside div {
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    text-align: left;
+    border-radius: 5px;
+}
+
+aside div:hover {
+    background-color: #b9dce8;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(1, 1, 82);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.product {
+    width: 250px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #b9dce8;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.product img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 5px;
+    transition: transform 0.3s;
+    object-fit: contain;
+}
+.product img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow( 0px 8px 15px rgba(0, 0, 0, 0.3));
+}
+
+.product button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(1, 1, 82);
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.product button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.products {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+input{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus {
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    outline: none;
+    border-color: white;
+    transition: 0.2s;
+}
+
+button{
+    border-radius: 5px;
+    background-color: #ccc;
+    transition: 0.2s;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.15);
+}
+
+input:hover{
+    transform: scale(1.05);
+}
+
+
